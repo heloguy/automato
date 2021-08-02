@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "Automato Movie Ratings",
+  "description": "Highlight and right-click movies to see their Rotten Tomatoes™ rating in the context menu.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "contextMenus",
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content_scripts.js"]
+    }
+  ],
+
+  "icons": {
+    "16": "tiny.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "automato.png"
+  },
+
+  "background": {
+      "scripts": ["jquery.js", "background.js"]
+  }
+}
