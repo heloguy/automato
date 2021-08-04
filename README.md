@@ -1,6 +1,7 @@
 # Automato
 
 Chrome extension that displays [Rotten Tomatoes](https://www.rottentomatoes.com/) film ratings in the browser context menu (the right-click menu).
+Note: RT now restricts access to their API and this extension is no longer functional.
 
 ## Installation
 1. Clone or download Automato.
@@ -11,4 +12,4 @@ Chrome extension that displays [Rotten Tomatoes](https://www.rottentomatoes.com/
 ## Usage
 Highlight any film title in Chrome and right-click to see the Rotten Tomatoes rating. Click the menu item to navigate to RT.
 
-![automato](automato.png)
+![automato](demo.png)
